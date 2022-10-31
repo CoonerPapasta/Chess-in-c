@@ -5,7 +5,7 @@ void print_board(Board board){
         printf("\n[");
         while ((*board) -> col <= 8) {
             printf("%c%d", erow_valueof((*board)->row), (*board)->col);
-            ;
+            board++;
         }
         printf("]");
     }
